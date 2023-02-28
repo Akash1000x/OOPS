@@ -25,8 +25,10 @@ int employee ::getdata()
 
 int main()
 {
-    employee obj;
+    employee obj,obj2;
     obj.setdata(12,23);
+    obj2.setdata(1,23);
     obj.getdata();
+    obj2.getdata();
     return 0;
 }
